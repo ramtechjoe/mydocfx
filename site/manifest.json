@@ -1,0 +1,422 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/repos/mydocfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.DataProviderModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.DataProviderModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.LayerId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.LayerId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.LayerName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.LayerName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.RelationshipClassId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.RelationshipClassId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Services.IMainLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Services.IMainLocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Services.INetworkDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Services.INetworkDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Services.MainLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Services.MainLocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Services.NetworkDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Services.NetworkDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.DataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.DataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Editor.EditorModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Editor.EditorModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Editor.Services.EditManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Editor.Services.EditManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Editor.Services.IEditManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Editor.Services.IEditManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Editor.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Editor.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.LocatorModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.LocatorModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.Services.AddressLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.Services.AddressLocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.Services.GpsRepositoryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.Services.GpsRepositoryProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.Services.IAddressLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.Services.IAddressLocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.Services.IGpsRepositoryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.Services.IGpsRepositoryProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Locator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.ConfigurationReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.ConfigurationReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.Extensions.SearchExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.Extensions.SearchExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.IConfigurationReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.IConfigurationReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.Locator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.Locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.MaximoServiceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.MaximoServiceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.PlacementPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.PlacementPoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.Setting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.Setting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wec.Automapper.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Wec.Automapper.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

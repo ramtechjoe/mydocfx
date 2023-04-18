@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IEditManager
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IEditManager
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Wec.Automapper.Editor.Services.IEditManager">
+
+
+
+  <h1 id="Wec_Automapper_Editor_Services_IEditManager" data-uid="Wec.Automapper.Editor.Services.IEditManager" class="text-break">
+    Interface IEditManager
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Wec.html">Wec</a>.<a class="xref" href="Wec.Automapper.html">Automapper</a>.<a class="xref" href="Wec.Automapper.Editor.html">Editor</a>.<a class="xref" href="Wec.Automapper.Editor.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Wec.Automapper.Editor.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Editing functionality used by Automapper application</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IEditManager</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Wec_Automapper_Editor_Services_IEditManager_OpenUtilityNetwork_" data-uid="Wec.Automapper.Editor.Services.IEditManager.OpenUtilityNetwork*"></a>
+
+  <h3 id="Wec_Automapper_Editor_Services_IEditManager_OpenUtilityNetwork_ArcGIS_Core_Data_Table_" data-uid="Wec.Automapper.Editor.Services.IEditManager.OpenUtilityNetwork(ArcGIS.Core.Data.Table)">
+  OpenUtilityNetwork(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Open the Utility Network using a table within the network.  Using table removes a dependency on name
+of Network (which is required if opening from Geodatabase object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UtilityNetwork OpenUtilityNetwork(Table networkTable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>networkTable</code> <span class="xref">Table</span></dt>
+    <dd><p>A network table (e.g., Pipeline Line table)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UtilityNetwork</span></dt>
+    <dd><p>UtilityNetwork</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Wec_Automapper_Editor_Services_IEditManager_PlaceMarkerBall_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceMarkerBall*"></a>
+
+  <h3 id="Wec_Automapper_Editor_Services_IEditManager_PlaceMarkerBall_ArcGIS_Core_Data_Geodatabase_ArcGIS_Core_Data_Table_ArcGIS_Core_Geometry_Geometry_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceMarkerBall(ArcGIS.Core.Data.Geodatabase,ArcGIS.Core.Data.Table,ArcGIS.Core.Geometry.Geometry)">
+  PlaceMarkerBall(Geodatabase, Table, Geometry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Place a marker ball</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long PlaceMarkerBall(Geodatabase geodatabase, Table structureJunctionFeatureClass, Geometry pointLocation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>geodatabase</code> <span class="xref">Geodatabase</span></dt>
+    <dd><p>Geodatabase object</p>
+</dd>
+    <dt><code>structureJunctionFeatureClass</code> <span class="xref">Table</span></dt>
+    <dd><p>StructureJunction feature class</p>
+</dd>
+    <dt><code>pointLocation</code> <span class="xref">Geometry</span></dt>
+    <dd><p>Location to place marker ball</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Wec_Automapper_Editor_Services_IEditManager_PlaceServiceInLocation_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceServiceInLocation*"></a>
+
+  <h3 id="Wec_Automapper_Editor_Services_IEditManager_PlaceServiceInLocation_ArcGIS_Core_Data_Geodatabase_ArcGIS_Core_Data_Feature_Wec_Automapper_Shared_MaximoServiceData_ArcGIS_Core_Geometry_Polyline_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceServiceInLocation(ArcGIS.Core.Data.Geodatabase,ArcGIS.Core.Data.Feature,Wec.Automapper.Shared.MaximoServiceData,ArcGIS.Core.Geometry.Polyline)">
+  PlaceServiceInLocation(Geodatabase, Feature, MaximoServiceData, Polyline)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Places a service line at the provided location</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long PlaceServiceInLocation(Geodatabase geodatabase, Feature serviceLineFeature, MaximoServiceData serviceData, Polyline polyline)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>geodatabase</code> <span class="xref">Geodatabase</span></dt>
+    <dd><p>Geodatabase</p>
+</dd>
+    <dt><code>serviceLineFeature</code> <span class="xref">Feature</span></dt>
+    <dd><p>Service line feature being moved</p>
+</dd>
+    <dt><code>serviceData</code> <a class="xref" href="Wec.Automapper.Shared.MaximoServiceData.html">MaximoServiceData</a></dt>
+    <dd><p>The service data</p>
+</dd>
+    <dt><code>polyline</code> <span class="xref">Polyline</span></dt>
+    <dd><p>Geometry to update shape</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Wec_Automapper_Editor_Services_IEditManager_PlaceServiceTee_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceServiceTee*"></a>
+
+  <h3 id="Wec_Automapper_Editor_Services_IEditManager_PlaceServiceTee_ArcGIS_Core_Data_Geodatabase_ArcGIS_Core_Data_Table_ArcGIS_Core_Geometry_Geometry_" data-uid="Wec.Automapper.Editor.Services.IEditManager.PlaceServiceTee(ArcGIS.Core.Data.Geodatabase,ArcGIS.Core.Data.Table,ArcGIS.Core.Geometry.Geometry)">
+  PlaceServiceTee(Geodatabase, Table, Geometry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Place a service tee at the provide location</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long PlaceServiceTee(Geodatabase geodatabase, Table pipelineJunctionFeatureClass, Geometry pointLocation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>geodatabase</code> <span class="xref">Geodatabase</span></dt>
+    <dd><p>Geodatabase object</p>
+</dd>
+    <dt><code>pipelineJunctionFeatureClass</code> <span class="xref">Table</span></dt>
+    <dd><p>PipelineJunction feature class</p>
+</dd>
+    <dt><code>pointLocation</code> <span class="xref">Geometry</span></dt>
+    <dd><p>Location to place service tee</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Wec_Automapper_Editor_Services_IEditManager_ValidateTopology_" data-uid="Wec.Automapper.Editor.Services.IEditManager.ValidateTopology*"></a>
+
+  <h3 id="Wec_Automapper_Editor_Services_IEditManager_ValidateTopology_ArcGIS_Core_Data_UtilityNetwork_UtilityNetwork_ArcGIS_Core_Geometry_Geometry_" data-uid="Wec.Automapper.Editor.Services.IEditManager.ValidateTopology(ArcGIS.Core.Data.UtilityNetwork.UtilityNetwork,ArcGIS.Core.Geometry.Geometry)">
+  ValidateTopology(UtilityNetwork, Geometry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Validates the Utility Network topology</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ValidationResult ValidateTopology(UtilityNetwork utilityNetwork, Geometry serviceGeometry)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>utilityNetwork</code> <span class="xref">UtilityNetwork</span></dt>
+    <dd><p>UtilityNetwork</p>
+</dd>
+    <dt><code>serviceGeometry</code> <span class="xref">Geometry</span></dt>
+    <dd><p>Geometry being validated</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ValidationResult</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
