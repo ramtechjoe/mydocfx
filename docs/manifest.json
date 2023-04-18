@@ -390,6 +390,36 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/hopegas.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/hopegas.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hopegas.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/hopegas.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hopegas.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/hopegas.svg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
